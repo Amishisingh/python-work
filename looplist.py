@@ -1,5 +1,12 @@
 
-
+for x in range(1,101):
+  print(x)
+for z in range(100):
+  print(z+1)
+for y in range(1,101,):
+   print(y**2)
+for a in range (17,171,17):
+  print(a)
 #recursive function
 #while loop
 
