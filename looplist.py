@@ -1,33 +1,60 @@
+#for x in range(1,101):
+ # print(x)
+#for z in range(100):
+  #print(z+1)
+#for y in range(1,101,):
+ #  print(y**2)
+   
+s=int(input("table of : "))
+i=1
+while i<11:
+  for a in range (s,s*10+1,s):
+     print(s,"x",i,"=",a)
+     i+=1
 
+for d in range (1,11):
+  print(f"{s}x{d}={s*d}")
 
-#recursive function
-#while loop
+for k in range (5,51,5):
+     print("skip of 5",k)
 
-#lists
+lowerLimit= int(input("table from : "))   
+upperLimit= int(input("table till : ")) 
+for e in range (lowerLimit,upperLimit+1):
+   print(f"Table of : {e}")
+   for l in range (1,11):
+      print(f"{e}x{l}={e*l}")
+
+# while loop
+# recursive function
+# lists
 dfh =[88,6,87,98]
 dfbhh =[78,56,86,89]
-#indexiing
+# indexiing
 print(dfh[0])
-#lenghth
+# lenghth
 print(len(dfbhh))
-#slicing
+# slicing
 print(dfh[2:4])
-#append
+
+# append
 dfh.append('gycbih')
-#remove
+print(dfh)
+# remove
 dfh.remove(98)
 print(dfh)
-#pop element
-dfbhh.pop(3)
-print(dfbhh)
-#sort
+# pop element
+
+# sort
 dfbhh.sort()
 print(dfbhh)
-#reverse
+# reverse
 dfbhh.reverse()
 print(dfbhh)
-#delete
+# delete
 dfh.clear()
 print(dfh)
 
-#dictinary
+# dictinary
+dfbhh.pop(3)
+print(dfbhh)
