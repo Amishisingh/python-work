@@ -9,10 +9,11 @@ isItRainingOnAmishi = True
 #import library_name
 import turtle
 turtle.title("ten")
-turtle.Screen().bgcolor("black")
+ar=turtle.Screen()
+ar.bgcolor("black")
 a=turtle.Turtle()
 a.speed('fastest')
-c=["red","yellow","purple","orange","green","pink","blue"]
+c=["red","yellow","purple","orange","green","pink","blue","aqua"]
 i=1
 while i<190:
       a.pencolor(c[i%len(c)])
@@ -20,5 +21,5 @@ while i<190:
       a.forward(600)
       a.left(157)
       i+=1
-turtle.done
+turtle.done()
 
