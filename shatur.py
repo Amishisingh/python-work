@@ -1,27 +1,31 @@
 import turtle
 turtle.title("ten")
 turtle.Screen().bgcolor("black")
-a=turtle.Turtle()
-b=turtle.Turtle()
+c=["deepPink","BROWN1","aqua","pink","blue","orange","purple","PINK"]
 
-c=["red","yellow"]
-turtle.shape("circle")
+a=turtle.Turtle()
+a.speed('fastest')
 for r in range(4):
-   
-   b.pencolor(c[r%2])
-   b.forward(200)
-   b.left(90)
+   a.pencolor(c[r%8])
+   a.forward(200)
+   a.left(90)
+
+# these didnt work
 turtle.up
 turtle.goto(-90,3)
+turtle.shape("circle")
+a.fillcolor("yellow")
 turtle.down
+# 
 
 a=turtle.Turtle()
+a.speed('fastest')
 i=1
-while i<400:
-    a.pencolor("green")
+while i<9000:
+    a.pencolor(c[i%8])
     a.forward(i)
     a.left(120)
-    i+=8
+    i+=1
 turtle.done()
 
-g=turtle.fillcolor("green")
+
