@@ -27,5 +27,3 @@ while i<9000:
     a.left(120)
     i+=1
 turtle.done()
-
-
