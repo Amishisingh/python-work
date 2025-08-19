@@ -20,9 +20,6 @@ else:
     print("Incorrect")
     score = score - 5
 print("Entomology is the study of ...?")
-print("options: \nA.The origin and history of technical and scientific terms \nB.Behavior of human \nC.Insects")    
-answer = input("A\B\C:").upper()
-if answer == 'C':
  print("options: /nA.The origin and history of technical and scientific terms /nB.Behavior of human beings /nC.Insects")    
 answer = input("A/B/C:").upper()
 if answer == 'c':
@@ -33,6 +30,5 @@ else:
     score = score - 5
 print("------conclusion--------")
 print("hey",playerName,"Your score is ",score,"/30")
-print("------conclusion--------")
-print("hey",playerName,"Your score is ",score)
+
    
