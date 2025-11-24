@@ -11,7 +11,7 @@ root.configure(bg='light blue')
 root.geometry('650x400')
 
 # Load uploaded image
-upload = Image.open(r"/mnt/data/1763558865738616128500121499110.jpg")
+upload = Image.open(r"c:\Users\Jairaj singh\Pictures\1000414599.jpg")
 upload = upload.resize((300, 300))
 image = ImageTk.PhotoImage(upload)
 
